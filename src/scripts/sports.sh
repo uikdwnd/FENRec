@@ -1,0 +1,2 @@
+cd ..
+python main.py --data_name Sports_and_Outdoors --rec_weight 1. --lambda_0 0.3 --beta_0 0.1 --f_neg --intent_num 256 --hidden_dropout_prob 0.5 --attention_probs_dropout_prob 0.5 --min_mix_ratio 0.4 --max_mix_ratio 0.4 --mix_portion 0.1 --noise_negative_portion 1 --tau 10 --focal_m 0.2 --soft_label_gamma 0.3
